@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="src/main.js"></script>
+    <script type="text/javascript" src="src/journal.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Journal</title>
+  </head>
+  <body>
+    <h3>Journal</h3>
+    <form id="title">
+      <label for="title">Enter a journal title:</label>
+      <input id="title">
+      <br>
+      <label for="body">Enter your text:</label>
+      <input id="body">
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result">
+      <p> Number of words: <span id="numberWords"></span></p>
+      <p> Number of vowels: <span id="numberVowels"></span></p>
+      <p> Number of consonants: <span id="numberConsonants"></span></p>
+    </div>
+  </body>
+</html>
